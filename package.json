@@ -1,0 +1,47 @@
+{
+  "name": "oncamp-api",
+  "version": "1.0.0",
+  "description": "A old item sell app for student",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "watch": "nodemon app.js",
+    "run": "nodemon -L app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://deepaksphinx@bitbucket.org/student-api/student-api.git"
+  },
+  "author": "Deepak Kumar Khatri",
+  "license": "ISC",
+  "homepage": "https://github.com/student-api/student-api#readme",
+  "dependencies": {
+    "aws-sdk": "^2.718.0",
+    "axios": "^0.21.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "ejs": "^2.7.4",
+    "email-templates": "^2.7.1",
+    "express": "^4.17.1",
+    "faker": "^5.1.0",
+    "formidable": "^1.2.2",
+    "fs": "0.0.1-security",
+    "google-auth-library": "^6.0.1",
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mime-types": "^2.1.27",
+    "moment": "^2.29.0",
+    "mongoose": "^5.9.20",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.11",
+    "passport": "^0.4.1",
+    "passport-facebook-token": "^4.0.0",
+    "passport-google-token": "^0.1.2",
+    "passport-twitter-token": "^1.3.0",
+    "socket.io": "^2.3.0",
+    "swagger-jsdoc": "^4.0.0",
+    "swagger-ui-express": "^4.1.4",
+    "winston": "^3.3.3"
+  }
+}
